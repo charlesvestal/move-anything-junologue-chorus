@@ -400,7 +400,7 @@ static int v2_get_param(void *instance, const char *key, char *buf, int buf_len)
     } else if (strcmp(key, "brightness") == 0) {
         return snprintf(buf, buf_len, "%.2f", inst->brightness);
     } else if (strcmp(key, "name") == 0) {
-        return snprintf(buf, buf_len, "Juno Chorus");
+        return snprintf(buf, buf_len, "Junologue Chorus");
     } else if (strcmp(key, "state") == 0) {
         return snprintf(buf, buf_len,
             "{\"mode\":%d,\"mix\":%.4f,\"brightness\":%.4f}",

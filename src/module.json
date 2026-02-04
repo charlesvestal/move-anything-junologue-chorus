@@ -1,6 +1,6 @@
 {
   "id": "junologue-chorus",
-  "name": "Juno Chorus",
+  "name": "Junologue Chorus",
   "abbrev": "JC",
   "version": "0.1.0",
   "description": "Juno-60 chorus emulation - port of peterall/junologue-chorus",
@@ -14,7 +14,7 @@
     "ui_hierarchy": {
       "levels": {
         "root": {
-          "name": "Juno Chorus",
+          "name": "Junologue Chorus",
           "params": ["mode", "mix", "brightness"],
           "knobs": ["mode", "mix", "brightness"]
         }
