@@ -20,7 +20,11 @@
               "key": "mode",
               "label": "Mode",
               "type": "enum",
-              "options": ["I", "I+II", "II"],
+              "options": [
+                "I",
+                "I+II",
+                "II"
+              ],
               "default": "I+II"
             },
             {
@@ -44,36 +48,13 @@
               "unit": "%"
             }
           ],
-          "knobs": ["mode", "mix", "brightness"]
+          "knobs": [
+            "mode",
+            "mix",
+            "brightness"
+          ]
         }
       }
-    },
-    "chain_params": [
-      {
-        "key": "mode",
-        "name": "Mode",
-        "type": "enum",
-        "options": ["I", "I+II", "II"],
-        "default": "I+II"
-      },
-      {
-        "key": "mix",
-        "name": "Mix",
-        "type": "float",
-        "min": 0.0,
-        "max": 1.0,
-        "default": 0.5,
-        "step": 0.01
-      },
-      {
-        "key": "brightness",
-        "name": "Brightness",
-        "type": "float",
-        "min": 0.0,
-        "max": 1.0,
-        "default": 1.0,
-        "step": 0.01
-      }
-    ]
+    }
   }
 }
