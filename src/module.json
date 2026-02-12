@@ -15,7 +15,35 @@
       "levels": {
         "root": {
           "name": "Junologue Chorus",
-          "params": ["mode", "mix", "brightness"],
+          "params": [
+            {
+              "key": "mode",
+              "label": "Mode",
+              "type": "enum",
+              "options": ["I", "I+II", "II"],
+              "default": "I+II"
+            },
+            {
+              "key": "mix",
+              "label": "Mix",
+              "type": "float",
+              "min": 0.0,
+              "max": 1.0,
+              "default": 0.5,
+              "step": 0.01,
+              "unit": "%"
+            },
+            {
+              "key": "brightness",
+              "label": "Brightness",
+              "type": "float",
+              "min": 0.0,
+              "max": 1.0,
+              "default": 1.0,
+              "step": 0.01,
+              "unit": "%"
+            }
+          ],
           "knobs": ["mode", "mix", "brightness"]
         }
       }
