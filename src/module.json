@@ -2,7 +2,7 @@
   "id": "junologue-chorus",
   "name": "Junologue Chorus",
   "abbrev": "JC",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Juno-60 chorus emulation - port of peterall/junologue-chorus",
   "author": "Peter Allwin (port: charlesvestal)",
   "license": "MIT",
