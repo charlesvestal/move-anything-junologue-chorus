@@ -61,6 +61,7 @@ ${CROSS_PREFIX}gcc -Ofast -shared -fPIC \
 # Copy files to dist (use cat to avoid ExtFS deallocation issues with Docker)
 echo "Packaging..."
 cat src/module.json > dist/junologue-chorus/module.json
+[ -f src/help.json ] && cat src/help.json > dist/junologue-chorus/help.json
 cat build/junologue-chorus.so > dist/junologue-chorus/junologue-chorus.so
 chmod +x dist/junologue-chorus/junologue-chorus.so
 

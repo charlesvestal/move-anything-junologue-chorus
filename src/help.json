@@ -1,0 +1,43 @@
+{
+  "title": "Junologue Chorus",
+  "children": [
+    {
+      "title": "Overview",
+      "lines": [
+        "Juno-60 chorus",
+        "emulation.",
+        "",
+        "Classic analog",
+        "chorus using dual",
+        "triangle LFOs and",
+        "modulated delay",
+        "lines.",
+        "",
+        "Three modes with",
+        "rich stereo width."
+      ]
+    },
+    {
+      "title": "Controls",
+      "lines": [
+        "Knob 1: Mode",
+        " I: subtle chorus",
+        " I+II: rich, wide",
+        " II: deep vibrato",
+        "",
+        "Knob 2: Mix",
+        " Dry/wet blend",
+        "",
+        "Knob 3: Brightness",
+        " Filter on wet signal",
+        "",
+        "LFO rates (fixed):",
+        " LFO 1: 0.513 Hz",
+        " LFO 2: 0.863 Hz",
+        "",
+        "Delay range:",
+        " 1.66ms to 5.35ms"
+      ]
+    }
+  ]
+}
